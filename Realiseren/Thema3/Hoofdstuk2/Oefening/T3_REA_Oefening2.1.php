@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Olivier Pezik Pajoow
- * Date: Date
+ * Date: 10/02/2023
  * File: T3_REA_Oefening1.1.php
  */
 ?>
@@ -55,6 +55,8 @@
             <?php
             // Voorbeeldcode
             echo "Op deze plek komt de uitwerking an de oefening te staan";
+            echo "PHP is een serverside programmeer taal, dit houd in dat alles op de webserver gedaan wordt, zo zie je op jouw client niks
+            terug van wat er op de server is geschreven. Zo kun je via PHP een database oproepen en deze in leesbaar HTML weergeven."
             ?>
         </p>
     </section>
