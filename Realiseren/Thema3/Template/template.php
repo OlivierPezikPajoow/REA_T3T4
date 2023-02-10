@@ -1,6 +1,6 @@
 <?php
 /**
- * User: S. Tudent
+ * User: Olivier Pezik Pajoow
  * Date: Date
  * File: T3_REA_Oefening1.1.php
  */
