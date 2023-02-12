@@ -61,7 +61,7 @@
             account. Telkens als ze iets veranderen aan hun code kunnen ze hun code committen, zo wordt de code opgeslagen, als je je code naarna
             pusht dan wordt het geupload naar je git en kan je het vervolgens zien in je repository.";
             /*
-             * echo zorgt ervoor dat wat je in een PHP onderdeel zet alsnog zichbaar is op de webpagina, via HTML.
+             echo zorgt ervoor dat wat je in een PHP onderdeel zet alsnog zichbaar is op de webpagina, via HTML.
              */
             ?>
         </p>
