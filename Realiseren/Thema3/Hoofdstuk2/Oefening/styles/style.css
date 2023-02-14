@@ -40,3 +40,8 @@ main section
 	box-sizing: border-box;
 	padding: 25px;
 }
+
+#nieuwsImage
+{
+	height: 200px;
+}
