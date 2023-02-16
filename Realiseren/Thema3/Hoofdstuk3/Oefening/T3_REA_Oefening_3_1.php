@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Olivier Pezik Pajoow
- * Date: 10/02/2023
+ * Date: 14/02/2023
  * File: T3_REA_Oefening1.1.php
  */
 ?>
@@ -10,7 +10,7 @@
 <head>
     <title>
         <?php
-        echo 'Opdracht 2.1';
+        echo 'Opdracht 2.2';
         ?>
     </title>
     <meta charset="UTF-8">
@@ -57,24 +57,32 @@
         <h2>
             Uitwerking.
         </h2>
-
-        <!-- Plaats je code / uitwerking hieronder -->
-        <p>
-            <?php
-            echo "PHP is een serverside programmeer taal, dit houd in dat alles op de webserver gedaan wordt, zo zie je op jouw client niks
-            terug van wat er op de server is geschreven. Zo kun je via PHP een database oproepen en deze in leesbaar HTML weergeven.";
-
-            echo "<h1>Git & Github</h1>";
-            echo "Github is een plek waar programmeurs hun programma's kunnen opslaan en delen, via GIT worden hun programma's geupload naar hun
-            account. Telkens als ze iets veranderen aan hun code kunnen ze hun code committen, zo wordt de code opgeslagen, als je je code naarna
-            pusht dan wordt het geupload naar je git en kan je het vervolgens zien in je repository.";
-            /*
-             echo zorgt ervoor dat wat je in een PHP onderdeel zet alsnog zichbaar is op de webpagina, via HTML.
-             */
-            ?>
-        </p>
+        <?php
+        $feestDag = "Carnaval";
+        $Dagen = "zondag, maandag en dinsdag";
+        $Duur = 3;
+        $vastenTijd = 40;
+        $Land = "Nederland";
+        $Locatie = "Noord-Brabant";
+        $Catering = "Worstenbrood, koffie Schrobbeler";
+        $Story = "$feestDag is van oorsprong een gekerstend heidens volksfeest. Het duurt 
+                officieel $Duur dagen, $Dagen direct voorafgaand aan de 
+                vastentijd van $vastenTijd dagen. $feestDag is bij uitstek het feest van zotheid, spot 
+                en uitbundigheid. Inmiddels is het in verschillende plaatsen door heel 
+                $Land een gebruik om $feestDag op carnavalsvrijdag te openen. Op 
+                Aswoensdag wordt $feestDag afgesloten, maar de tradities verschillen per 
+                regio. In het overgrote deel van $Locatie wordt er afgesloten met 
+                $Catering soms met een Brabantse koffietafel.";
+        $Bonnetje1 = 20.40;
+        $Bonnetje2 = 15.60;
+        $Bonnetje3 = 25.19;
+        $Totaal = ($Bonnetje1+$Bonnetje2+$Bonnetje3);
+        $ppBedrag = (Round(($Totaal/3)*100)/100);
+        echo "<p>$Story</p>";
+        echo "<p>Het totaalbedrag is $Totaal</p>";
+        echo "<p>Het bedrag per persoon is $ppBedrag</p>"
+        ?>
     </section>
 </main>
 </body>
 </html>
-
