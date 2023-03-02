@@ -19,11 +19,11 @@
 </head>
 <body>
 <?php
-include "../../Hoofdstuk3/Oefening/Includes/Header.php"
+include "../../Includes/Header.php"
 ?>
 <main id="wrapper">
     <?php
-    include "../../Hoofdstuk3/Oefening/Includes/Nav.php"
+    include "../../Includes/Nav.php"
     ?>
     <section>
         <h2>
@@ -44,7 +44,7 @@ include "../../Hoofdstuk3/Oefening/Includes/Header.php"
     </section>
 </main>
 <?php
-include "../../Hoofdstuk3/Oefening/Includes/Footer.php";
+include "../../Includes/Footer.php";
 ?>
 </body>
 </html>

@@ -10,7 +10,7 @@
 <head>
     <title>
         <?php
-        echo 'Opdracht 2.2';
+        echo 'Opdracht 3.1';
         ?>
     </title>
     <meta charset="UTF-8">
@@ -20,11 +20,11 @@
 <body>
 
 <?php
-include "Includes/Header.php"
+include "../../Includes/Header.php"
 ?>
 <main id="wrapper">
     <?php
-    include "Includes/Nav.php"
+    include "../../Includes/Nav.php"
     ?>
     <section>
         <h2>
@@ -58,7 +58,7 @@ include "Includes/Header.php"
     </section>
 </main>
 <?php
-include "Includes/Footer.php";
+include "../../Includes/Footer.php";
 ?>
 </body>
 </html>
