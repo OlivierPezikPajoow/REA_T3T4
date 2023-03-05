@@ -1,8 +1,8 @@
 <?php
 /**
  * User: Olivier Pezik Pajoow
- * Date: 14/02/2023
- * File: T3_REA_Oefening1.1.php
+ * Date: 05/03/2023
+ * File: T3_REA_Oefening4.2.php
  */
 ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
 <head>
     <title>
         <?php
-        echo 'Opdracht';
+        echo 'Opdracht 4.2';
         ?>
     </title>
     <meta charset="UTF-8">
@@ -27,7 +27,9 @@ include "../../Includes/Header.php"
     include "../../Includes/Nav.php"
     ?>
     <section>
-
+        <?php
+        include "../../Includes/Functions.php"
+        ?>
     </section>
 </main>
 <?php

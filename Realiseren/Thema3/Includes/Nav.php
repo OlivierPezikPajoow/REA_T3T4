@@ -24,5 +24,15 @@
                 </li>
             </ul>
         </li>
+        <li>
+            <h3>Hoofdstuk 4:</h3>
+        </li>
+        <li>
+            <ul>
+                <li>
+                    <a href=/Realiseren/Thema3/Hoofdstuk4/Oefening/T3_REA_Oefening_4_2.php>Oefening 4.2</a>
+                </li>
+            </ul>
+        </li>
     </ul>
 </nav>
