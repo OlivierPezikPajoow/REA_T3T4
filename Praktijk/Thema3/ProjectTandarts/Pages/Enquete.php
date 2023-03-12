@@ -1,4 +1,11 @@
+
 <!DOCTYPE html>
+<!--
+    Auteur: Olivier Pezik Pajoow
+    Aanmaakdatum: <25-02-2023>
+
+    Omschrijving: Enquete gebidsgezondheidstest
+-->
 <html lang="nl">
 <head>
 <title>
@@ -13,7 +20,7 @@
 </head>
 <body>
 <header>
-    <img id="mainLogo" src="../Images/TandartsLogo.png" alt="Tandarts logo">
+    <a href="../Index.php"><img id="mainLogo" src="../Images/TandartsLogo.png" alt="Tandarts logo"></a>
     <nav>
         <h1>
             Gebidsgezondheidstest
@@ -21,6 +28,7 @@
     </nav>
 </header>
 <main>
+<!--    Formulier gebidstest-->
     <form action="Results.php" method="post">
         <label><h3>Hoe vaak poets je per dag?</h3></label><br>
         <label><input type="radio" name="brush" value="10"  required>2 of meer keer per dag</label><br>

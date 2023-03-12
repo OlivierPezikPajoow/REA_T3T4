@@ -1,8 +1,8 @@
 /* Auteur: Olivier Pezik Pajoow
     Aanmaakdatum: <17-02-2023>
 
-    Omschrijving: 
-=*/
+    Omschrijving: CSS Praktijkopdracht
+*/
 
 body
 {
@@ -102,6 +102,21 @@ form
     text-align: center;
     font-family: lato;
     margin-top: 0px;
+}
+
+#Results p, #Results h2
+{
+    color: #000000;
+    text-align: center;
+    font-family: lato;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Results p
+{
+    font-size: 20px;
 }
 
 #ScoreImage img
@@ -253,7 +268,11 @@ form
     {
         width: 90vw;
     }
+    #Results p, #Results h2
+    {
 
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:500px)

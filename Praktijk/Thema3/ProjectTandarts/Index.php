@@ -3,8 +3,7 @@
     Auteur: Olivier Pezik Pajoow
     Aanmaakdatum: <17-02-2023>
 
-    Omschrijving:
-
+    Omschrijving: Hoofdpagina website tandarts
 -->
 <html lang="nl">
 <head>
