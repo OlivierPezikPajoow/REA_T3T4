@@ -51,6 +51,8 @@ function ShowMenu($dag)
     }
 }
 
+function SecondCoounter()
+{
 
-CheckTrafficLight("Red", false);
-ShowMenu("Donderdag");
+}
+

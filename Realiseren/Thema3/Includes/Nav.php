@@ -32,6 +32,9 @@
                 <li>
                     <a href=/Realiseren/Thema3/Hoofdstuk4/Oefening/T3_REA_Oefening_4_2.php>Oefening 4.2</a>
                 </li>
+                <li>
+                    <a href=/Realiseren/Thema3/Hoofdstuk4/Oefening/T3_REA_Oefening_4_3.php>Oefening 4.3</a>
+                </li>
             </ul>
         </li>
     </ul>
