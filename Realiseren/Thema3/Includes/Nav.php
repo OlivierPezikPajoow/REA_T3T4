@@ -37,5 +37,15 @@
                 </li>
             </ul>
         </li>
+        <li>
+            <h3>Hoofdstuk 4:</h3>
+        </li>
+        <li>
+            <ul>
+                <li>
+                    <a href=/Realiseren/Thema3/Hoofdstuk5/Oefening/Instructie_Login/Login.php>Oefening 4.2</a>
+                </li>
+            </ul>
+        </li>
     </ul>
 </nav>

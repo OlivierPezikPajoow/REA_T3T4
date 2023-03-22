@@ -28,8 +28,10 @@ include "../../Includes/Header.php"
     ?>
     <section>
         <?php
-        include "../../Includes/Functions.php"
+        include "../../Includes/Functions.php";
+        SecondCoounter();
         ?>
+
     </section>
 </main>
 <?php

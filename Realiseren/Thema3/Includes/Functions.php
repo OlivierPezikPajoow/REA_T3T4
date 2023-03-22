@@ -53,6 +53,11 @@ function ShowMenu($dag)
 
 function SecondCoounter()
 {
+    echo time();
+}
 
+function CalculateInterest($cost, $saved)
+{
+    $counter = 0;
 }
 
