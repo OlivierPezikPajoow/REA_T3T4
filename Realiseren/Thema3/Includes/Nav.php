@@ -38,12 +38,12 @@
             </ul>
         </li>
         <li>
-            <h3>Hoofdstuk 4:</h3>
+            <h3>Hoofdstuk 5:</h3>
         </li>
         <li>
             <ul>
                 <li>
-                    <a href=/Realiseren/Thema3/Hoofdstuk5/Oefening/Instructie_Login/Login.php>Oefening 4.2</a>
+                    <a href=/Realiseren/Thema3/Hoofdstuk5/Oefening/T3_REA_Oefening_5_1.php>Oefening 5.1</a>
                 </li>
             </ul>
         </li>
