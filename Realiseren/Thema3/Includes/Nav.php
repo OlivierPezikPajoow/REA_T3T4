@@ -47,5 +47,15 @@
                 </li>
             </ul>
         </li>
+        <li>
+            <h3>Hoofdstuk 6:</h3>
+        </li>
+        <li>
+            <ul>
+                <li>
+                    <a href=/Realiseren/Thema3/Hoofdstuk6/Oefening/T3_REA_Oefening_6_1.php>Oefening 6.1</a>
+                </li>
+            </ul>
+        </li>
     </ul>
 </nav>
