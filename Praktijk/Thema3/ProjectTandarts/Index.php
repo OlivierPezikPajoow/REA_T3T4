@@ -18,35 +18,35 @@
     <link rel="stylesheet" href="Styles/Stylesheet.css">
 </head>
 <body>
-<header>
-    <img id="mainLogo" src="Images/TandartsLogo.png" alt="Tandarts logo">
-    <nav>
-        <ul>
-            <li>
-                <a href="Index.php">HOME</a>
-            </li>
-            <li>
-                <a href="Index.php">BEHANDELINGEN</a>
-            </li>
-            <li>
-                <a href="Index.php">INSCHRIJVEN</a>
-            </li>
-            <li>
-                <a href="Index.php">AFSPRAKEN</a>
-            </li>
-            <li>
-                <a href="Index.php">OVER ONS</a>
-            </li>
-            <li>
-                <a href="Index.php">CONTACT</a>
-            </li>
-            <li>
-                <a href="Index.php">BLOG</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<section id="Section1">
+    <header>
+        <img id="mainLogo" src="Images/TandartsLogo.png" alt="Tandarts logo">
+        <nav>
+            <ul>
+                <li>
+                    <a href="Index.php">HOME</a>
+                </li>
+                <li>
+                    <a href="Index.php">BEHANDELINGEN</a>
+                </li>
+                <li>
+                    <a href="Index.php">INSCHRIJVEN</a>
+                </li>
+                <li>
+                    <a href="Index.php">AFSPRAKEN</a>
+                </li>
+                <li>
+                    <a href="Index.php">OVER ONS</a>
+                </li>
+                <li>
+                    <a href="Index.php">CONTACT</a>
+                </li>
+                <li>
+                    <a href="Index.php">BLOG</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Section1">
         <article>
             <h1>
                 TANDARTS DEN BOSCH

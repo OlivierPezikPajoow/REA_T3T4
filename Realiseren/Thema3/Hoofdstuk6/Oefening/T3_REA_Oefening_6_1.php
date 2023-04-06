@@ -20,14 +20,16 @@
 <body>
 
 <?php
-include "../../Includes/Header.php"
+include "../../Includes/Header.php";
 ?>
 <main id="wrapper">
     <?php
-    include "../../Includes/Nav.php"
+    include "../../Includes/Nav.php";
     ?>
     <section>
-
+        <?php
+        include "T3_REA_Oefening6_1_Bijlage/T3_REA_Oefening6_1.php";
+        ?>
     </section>
 </main>
 <?php
