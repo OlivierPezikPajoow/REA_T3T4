@@ -20,11 +20,11 @@
 <body>
 
 <?php
-include "../../Includes/Header.php";
+include "../../../Includes/Header.php";
 ?>
 <main id="wrapper">
     <?php
-    include "../../Includes/Nav.php";
+    include "../../../Includes/Nav.php";
     ?>
     <section>
         <?php
@@ -33,7 +33,7 @@ include "../../Includes/Header.php";
     </section>
 </main>
 <?php
-include "../../Includes/Footer.php";
+include "../../../Includes/Footer.php";
 ?>
 </body>
 </html>

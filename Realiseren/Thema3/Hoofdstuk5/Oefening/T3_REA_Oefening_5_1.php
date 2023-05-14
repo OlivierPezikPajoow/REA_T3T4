@@ -20,11 +20,11 @@
 <body>
 
 <?php
-include "../../Includes/Header.php"
+include "../../../Includes/Header.php"
 ?>
 <main id="wrapper">
     <?php
-    include "../../Includes/Nav.php"
+    include "../../../Includes/Nav.php"
     ?>
     <section>
     <form method="get" action="T3_REA_Oefening_5_1_Result.php">
@@ -69,7 +69,7 @@ include "../../Includes/Header.php"
     </section>
 </main>
 <?php
-include "../../Includes/Footer.php";
+include "../../../Includes/Footer.php";
 ?>
 </body>
 </html>
