@@ -24,22 +24,22 @@
     <nav>
         <ul>
             <li>
-                <a href="Index.php">Over ons v</a>
+                <a href="Index.php">Over ons <span>v</span></a>
             </li>
             <li>
                 <a href="Index.php">Dier gevonden</a>
             </li>
             <li>
-                <a href="Index.php">Onze dieren v</a>
+                <a href="Index.php">Onze dieren <span>v</span></a>
             </li>
             <li>
-                <a href="Index.php">Afstand doen v</a>
+                <a href="Index.php">Afstand doen <span>v</span></a>
             </li>
             <li>
-                <a href="Index.php">Steun ons</a>
+                <a href="Index.php">Steun ons <span>v</span></a>
             </li>
             <li>
-                <a href="Index.php">Vrijwilligerswerk</a>
+                <a href="Index.php">Vrijwilligerswerk <span>v</span></a>
             </li>
             <li>
                 <a href="Index.php">Hondenpension & Dagopvang</a>
@@ -48,6 +48,12 @@
     </nav>
 </header>
 <main>
+    <section id="Section1">
+        <img src="Images/DierentehuisMain.jpg" alt="Main page">
+    </section>
+    <section id="Section2">
+
+    </section>
 </main>
 </body>
 </html>
