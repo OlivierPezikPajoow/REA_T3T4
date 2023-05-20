@@ -1,5 +1,4 @@
 // Auteur: Olivier Pezik Pajoow
-// Aanmaakdatum: <dd/mm/2022>
+// Aanmaakdatum: <20/03/2023>
 
-// Omschrijving:
-
+// Omschrijving: javascript voor project dierentehuis

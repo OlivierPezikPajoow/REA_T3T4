@@ -17,10 +17,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--    link naar het CSS bestand-->
     <link rel="stylesheet" href="Styles/Stylesheet.css">
+    <!--    link naar het script-->
+    <script src="Scripts/Script.js" defer></script>
 </head>
 <body>
 <header>
-    <img src="Images/DierentehuisLogo.png" alt="Logo Dierentehuis">
+    <a href="Index.php">
+        <img src="Images/DierentehuisLogo.png" alt="Logo Dierentehuis">
+    </a>
     <nav>
         <ul>
             <li>
@@ -46,13 +50,40 @@
             </li>
         </ul>
     </nav>
+    <a href="Pages/LogInPage.php" id="Login">
+        Log In
+    </a>
 </header>
 <main>
     <section id="Section1">
         <img src="Images/DierentehuisMain.jpg" alt="Main page">
     </section>
     <section id="Section2">
-
+            <div id="TopPart">
+                <div class="Vak">
+                    <img src="Images/kat.jpg" alt="">
+                    <p>Adopteer een kat</p>
+                </div>
+                <div class="Vak">
+                    <img src="Images/hond.jpg" alt="">
+                    <p>Adopteer een hond</p>
+                </div>
+                <div class="Vak">
+                    <img src="Images/gevonden.jpg" alt="">
+                    <p>Dier gevonden</p>
+                </div>
+            </div>
+            <div id="BottomPart">
+                <div class="Vak">
+                    <p>Steun ons</p>
+                </div>
+                <div class="Vak">
+                    <p>Afstand doen van huisdier</p>
+                </div>
+                <div class="Vak">
+                    <p>Vrijwilliger worden</p>
+                </div>
+            </div>
     </section>
 </main>
 </body>
