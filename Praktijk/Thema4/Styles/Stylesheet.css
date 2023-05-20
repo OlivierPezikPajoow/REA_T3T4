@@ -17,7 +17,7 @@ header
    border-bottom: 1px solid rgba(0, 150, 240, 0.39);
    position: relative;
 }
-#Login
+#Login, #LogOut
 {
    position: absolute;
    top: 15px;
@@ -32,12 +32,11 @@ header
    background-color: darkorange;
    border: none;
    color: white;
-   cursor: pointer;
    text-decoration: none;
    text-align: center;
 }
 
-#Login:hover
+#Login:hover, #LogOut:hover
 {
    background-color: #9b5700;
 }
@@ -159,7 +158,7 @@ li a
    border-radius: 50%;
 }
 
-form
+#LogInForm
 {
    border: 2px solid black;
    width: fit-content;

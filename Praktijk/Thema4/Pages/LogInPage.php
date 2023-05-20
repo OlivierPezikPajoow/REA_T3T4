@@ -29,9 +29,13 @@
     </head>
     <?php
     include "../Include/Header.php";
+    include "../Include/Functions.php";
+    if (isset($_SESSION['logged']) && $_SESSION['logged'] == true) {
+        header("Location: LoggedIn.php");
+    }
     ?>
     <body>
-    <form action="LoggedIn.php" method="post">
+    <form id="LogInForm" action="LoggedIn.php" method="post">
         <label for = "Username">Username: <input id="Username" name="User" type="text" required></label> <br><br>
         <label for = "Password">Password: <input id="Password" name="Pass" type="password" required></label> <br><br>
         <input type="submit" value="Login">

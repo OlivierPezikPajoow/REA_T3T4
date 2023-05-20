@@ -21,21 +21,15 @@
     <script src="../Scripts/Script.js" defer></script>
 </head>
 <body>
+
 <?php
 include "../Include/Header.php";
 include "../Include/Functions.php";
+login();
 
-if ($triedPass == $password and $triedUser == $username)
-{
-    $loggedIn = true;
-}
-if ($loggedIn == true) {
-    echo "U bent ingelogd";
-}
-else
-{
-    echo "Haha gay nerd";
-}
 ?>
+<form action="LogOut.php" method="post">
+    <input id="LogOut" type="submit" value="Log Out">
+</form>
 </body>
 </html>
