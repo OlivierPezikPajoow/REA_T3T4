@@ -86,5 +86,9 @@
             </div>
     </section>
 </main>
+<?php
+include "Include/Functions.php";
+include "Include/Footer.php"
+?>
 </body>
 </html>

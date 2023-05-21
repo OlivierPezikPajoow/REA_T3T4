@@ -9,7 +9,6 @@
 {
    margin: 0px;
 }
-
 header
 {
    width: 100%;
@@ -60,7 +59,6 @@ ul
    margin-right: auto;
    padding-left: 0px;
    height: 20px;
-   text-align: center;
    padding-top: 8px;
    padding-bottom: 16px;
    margin-top: 0px;
@@ -109,8 +107,9 @@ li a
 #Section2
 {
    height: 250px;
-   width: 100vw;
+   width: 100%;
    background-color: #b3b43e;
+   margin-bottom: 50px;
 }
 
 #TopPart, #BottomPart
@@ -168,4 +167,47 @@ li a
    margin-left: auto;
    margin-right: auto;
    align-items: center;
+   margin-bottom: 245px;
+}
+#VrijwilligersTabel
+{
+   display: flex;
+   width: fit-content;
+   height: fit-content;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   border-collapse: collapse;
+   margin-top: 50px;
+   margin-bottom: 106px;
+}
+
+#VrijwilligersTabel td
+{
+   border: 2px solid black;
+   margin: 0;
+   padding: 5px;
+}
+Footer
+{
+   position: relative;
+   height: 100px;
+   width: 100%;
+   bottom: 0px;
+   background-color: grey;
+   display: flex;
+   margin-top: auto;
+   color: white;
+   align-items: center;
+   font-family: sans-serif;
+}
+Footer p
+{
+   font-size: 20px;
+   padding: 20px;
+
+}
+Footer p span
+{
+   color: #b3b43e;
 }

@@ -6,7 +6,7 @@ session_start();
 function login()
 {
     if (isset($_SESSION['logged']) && $_SESSION['logged'] == true) {
-    exit();
+
     }
     else
     {

@@ -35,10 +35,15 @@
     }
     ?>
     <body>
-    <form id="LogInForm" action="LoggedIn.php" method="post">
-        <label for = "Username">Username: <input id="Username" name="User" type="text" required></label> <br><br>
-        <label for = "Password">Password: <input id="Password" name="Pass" type="password" required></label> <br><br>
-        <input type="submit" value="Login">
-    </form>
+    <main>
+        <form id="LogInForm" action="LoggedIn.php" method="post">
+            <label for = "Username">Username: <input id="Username" name="User" type="text" required></label> <br><br>
+            <label for = "Password">Password: <input id="Password" name="Pass" type="password" required></label> <br><br>
+            <input type="submit" value="Login">
+        </form>
+    </main>
+    <?php
+    include "../Include/Footer.php"
+    ?>
     </body>
 </html>
