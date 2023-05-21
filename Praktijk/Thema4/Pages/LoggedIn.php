@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>
-        Dierentehuis Den Bosch
+        Dierentehuis Den Bosch Admin
     </title>
     <!--    declaratie tekenset-->
     <meta charset="UTF-8">

@@ -19,7 +19,7 @@ function login()
         $password = $_POST['Pass'];
 
 // Check if username and password match
-        if ($username == 'admin' && $password == '1234') {
+        if ($username == 'vrijwilliger' && $password == 'I3d3rd13rt3lt') {
 // Login successful, store login status in session
             $_SESSION['logged'] = true;
             $_SESSION['Username'] = $username;

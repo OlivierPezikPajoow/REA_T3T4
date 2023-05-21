@@ -16,7 +16,7 @@
     <html>
     <head>
         <title>
-            Dierentehuis Den Bosch
+            Dierentehuis Den Bosch Log In
         </title>
         <!--    declaratie tekenset-->
         <meta charset="UTF-8">
