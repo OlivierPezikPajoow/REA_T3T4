@@ -94,6 +94,20 @@ $Vrijwilligers = array
         <input id="LogOut" type="submit" value="Log Out">
     </form>
     <table id="VrijwilligersTabel">
+        <tr>
+            <td>
+                <p>Naam</p>
+            </td>
+            <td>
+                <p>Telefoonnummer</p>
+            </td>
+            <td>
+                <p>e-Mailadres</p>
+            </td>
+            <td>
+                <p>Werkzaamheden</p>
+            </td>
+        </tr>
         <?php
         for($i=0;$i<count($Vrijwilligers);$i++) {
             echo('<tr>');
