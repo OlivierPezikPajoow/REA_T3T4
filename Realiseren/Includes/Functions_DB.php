@@ -1,5 +1,40 @@
 <?php
+$pdo = null;
 
+function startConnection($database = null)
+{
+    global $pdo;
+    // Open de database connectie en ODBC driver
+    try
+    {
+        $pdo = new PDO("odbc:odbc2sqlserver");
+        if ($database)
+        {
+            $pdo->query("USE $database");
+        }
+    }
+    catch (PDOException $e)
+    {
+        echo "<h1>Database error:</h1>";
+ echo $e->getMessage();
+ die();
+ }
+
+}
+
+function executeQuery($sql)
+{
+    global $pdo;
+// Uitvoeren van een SQl query
+    try {
+        // Query uitvoeren
+        $result = $pdo->query($sql);
+        return $result;
+    } catch (PDOException $e) {
+        echo 'Er is een probleem met ophalen van jokes: ' . $e->getMessage();
+        die();
+    }
+}
 function riddles()
 {
     try
@@ -43,44 +78,5 @@ function riddles()
     }
 }
 
-function pokemon()
-{
-    try
-    {
-        $pdo = new PDO("odbc:odbc2sqlserver");
-    }
-    catch (PDOException $e)
-    {
-        // Bij een error, toon dan deze melding
-        echo "<h1>Database error:</h1>";
-        echo $e->getMessage();
-        // Stop het script
-        die();
-    }
-    echo "database connectie gelukt<br>";
-// Uitvoeren van een SQl query
 
-    try
-    {
-        $sql = "SELECT * FROM pokemon";
-        // Query uitvoeren
-        $result = $pdo->query($sql);
-    }
-    catch (PDOException $e)
-    {
-        // Bij een error, toon dan deze melding
-        echo "Er is een probleem met ophalen van pokemon: " . $e->getMessage();
-        // Stop het script
-        die();
-    }
-    while ($row = $result->fetch(PDO::FETCH_ASSOC))
-    {
-        echo "name " . $row["name"] . "<br>";
-        echo "number: " . $row["number"] . "<br>";
-        echo "type1: " . $row["type1"] . "<br>";
-        echo "type2:" . $row["type2"] . "<br>";
-        echo "ability: " . $row["ability"] . "<br>";
-        echo "<hr>";
-    }
-}
 ?>
