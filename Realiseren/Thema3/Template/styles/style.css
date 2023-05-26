@@ -40,3 +40,14 @@ main section
 	box-sizing: border-box;
 	padding: 25px;
 }
+
+table
+{
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table td
+{
+	border: 5px solid black;
+}
