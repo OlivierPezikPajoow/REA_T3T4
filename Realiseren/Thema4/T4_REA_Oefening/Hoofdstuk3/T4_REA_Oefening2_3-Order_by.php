@@ -41,10 +41,13 @@ include "../../../Includes/Header.php"
     <?php
     include "../../../Includes/Nav.php";
     include "../../../Includes/Functions_DB.php";
+//    verbinding maken met data base
     StartConnection("ijdb");
+//    Query aanmaken met volgorder
     $query = "SELECT * FROM tblRiddles ORDER BY CreateDate;";
+//    query uitvoeren
     $result = executeQuery($query);
-
+//  query weergeven in een tabel
     while ($row = $result->fetch(PDO::FETCH_ASSOC))
     {
         echo "<tr>";

@@ -32,9 +32,13 @@ include "../../../Includes/Header.php"
         <?php
         include "../../../Includes/Nav.php";
         include "../../../Includes/Functions_DB.php";
+//        Verbinding maken met database
         StartConnection("ijdb");
+//        Query aanmaken met distinct
         $query = "SELECT DISTINCT Creator FROM tblRiddles";
+//        Query uitvoeren
         $result = executeQuery($query);
+//        query in tabel zettem
         while ($row = $result->fetch(PDO::FETCH_ASSOC))
         {
             echo "<tr>";
