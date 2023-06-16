@@ -65,6 +65,7 @@ include "../../../Includes/Header.php"
             echo "Oplossing: " . $row["RiddleAnswer"] . "<br>";
             echo "Bedenker:" . $row["Creator"] . "<br>";
             echo "Datum: " . $row["CreateDate"] . "<br>";
+            echo "<a href='../Hoofdstuk5/T4_REAA_Oefening5.1.php?JokeId=" . $row['Id'] . "'>Verwijderen</a>";
             echo "<hr>";
         }
         ?>
