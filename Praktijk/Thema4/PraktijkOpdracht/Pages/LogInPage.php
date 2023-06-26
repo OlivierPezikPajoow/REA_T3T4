@@ -32,6 +32,7 @@
     include "../Include/Functions.php";
     if (isset($_SESSION['logged']) && $_SESSION['logged'] == true) {
         header("Location: LoggedIn.php");
+        exit();
     }
     ?>
     <body>

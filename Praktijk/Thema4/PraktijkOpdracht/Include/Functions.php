@@ -1,20 +1,16 @@
 <?php
 session_start();
-
+$_SESSION['Logged'] = true;
 // Check if user is already logged in
 
 function login()
 {
-    if (isset($_SESSION['logged']) && $_SESSION['logged'] == true) {
-
-    }
-    else
-    {
+    if (isset($_SESSION['logged']) == false or $_SESSION['logged'] == false) {
         header("Location: LogInPage.php");
     }
-// Check if login form is submitted
+    // Check if login form is submitted
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-// Perform login validation
+        // Perform login validation
         $username = $_POST['User'];
         $password = $_POST['Pass'];
 

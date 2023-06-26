@@ -25,12 +25,10 @@
 include "../Include/Header.php";
 include "../Include/Functions.php";
 login();
+
 $Vrijwilligers = array
 (
-    array
-    (
-        "Eliene Holla", "06-44662246", "ElieneHolla@outlook.com", "verzorging honden"
-    ),
+    ["Eliene Holla", "06-44662246", "ElieneHolla@outlook.com", "verzorging honden"],
     array
     (
         "Philip Boekholt", "06-82528319", "PhilipBoekholt@outlook.com", "verzorging katten"

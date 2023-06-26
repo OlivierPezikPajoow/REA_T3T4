@@ -120,6 +120,8 @@ header nav section a:Hover
     outline: black solid;
 
 }
+
+/*Tijd settings*/
 .Time
 {
     font-weight: bolder;
@@ -128,11 +130,13 @@ header nav section a:Hover
     font-size: 20px;
 }
 
+/*Tijd uit elkaar zetten*/
 .EvTime
 {
     padding: 10px;
 }
 
+/*Namevakje settings*/
 .EvName
 {
     font-family: Impact;
@@ -141,6 +145,8 @@ header nav section a:Hover
     color: white;
     filter: drop-shadow(0px 5px 3px #000000);
 }
+
+/*Location settings*/
 .EvLocation
 {
     font-weight: bolder;
@@ -148,6 +154,7 @@ header nav section a:Hover
     margin: 0;
 }
 
+/*Link settings*/
 .Link
 {
     font-family: Impact;
@@ -158,13 +165,15 @@ header nav section a:Hover
     color: darkblue;
     transition: 0.3s;
 }
+
+/*Link hover over settings*/
 .Link:hover
 {
     margin-left: 15px;
     color: purple;
 }
 
-
+/*Footer settings*/
 footer
 {
     background-color: darkblue;
@@ -174,11 +183,13 @@ footer
     margin-top: -2px;
 }
 
+/*Footer username settings*/
 Footer span
 {
     color: red;
 }
 
+/*Footer text settings*/
 footer h2
 {
     font-family: Impact;
@@ -191,12 +202,14 @@ footer h2
 
 }
 
+/*Edit settings*/
 .EditMode
 {
     width: 5px;
     height: 10px;
 }
 
+/*Login form settings*/
 #LogInForm
 {
     padding: 10px;
@@ -212,6 +225,8 @@ footer h2
     background-color: lightgrey;
     margin-bottom: 180px;
 }
+
+/*Login settings 2*/
 #LogInForm input, #LogInForm label
 {
     margin-top: 5px;
@@ -220,6 +235,8 @@ footer h2
     font-size: 20px;
 
 }
+
+/*Login input settings*/
 #LogInForm input
 {
     height: 30px;
@@ -229,13 +246,14 @@ footer h2
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .6));
 }
 
+/*login message wrong*/
 #WrongLogin
 {
     font-family: Impact;
     font-weight: 10;
 }
 
-
+/*Update form settings*/
 #UpdateForm, #SearchForm
 {
     width: 100%;
@@ -245,18 +263,21 @@ footer h2
     background: linear-gradient( to left, rgb(70, 70, 70), rgb(70, 70, 70) , rgb(20, 20, 20));
 }
 
+/*Update form settings*/
 #UpdateForm
 {
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
+/*Search form settings*/
 #SearchForm
 {
     padding-bottom: 20px;
     padding-top: 10px;
 }
 
+/*Update form settings*/
 #UpdateForm Form
 {
     font-family: Impact;
@@ -269,6 +290,7 @@ footer h2
     font-size: 25px;
 }
 
+/*Submit button*/
 #SubmitAdd
 {
     margin-top: 10px;
@@ -277,6 +299,7 @@ footer h2
     font-size: 20px;
 }
 
+/*Update form input settings*/
 #UpdateForm Form Input
 {
     width: 300px;
@@ -289,30 +312,8 @@ footer h2
     border-radius: 10px;
     border: 0;
 }
-#UpdateForm Form Input
-{
-    width: 300px;
-    height: 30px;
-    margin-bottom: 10px;
-    margin-top: 3px;
-    font-size: 15px;
-    text-align: center;
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .6));
-    border-radius: 10px;
-    border: 0;
-}
-#SearchForm Form Input
-{
-    width: 150px;
-    height: 20px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 15px;
-    text-align: center;
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .6));
-    border-radius: 10px;
-    border: 0;
-}
+
+/*Search form settings*/
 #SearchForm Form
 {
     font-family: Impact;
@@ -325,6 +326,7 @@ footer h2
     font-size: 20px;
 }
 
+/*Responsive phone*/
 @media screen and (max-width:700px)
 {
     #Background h1
@@ -338,6 +340,7 @@ footer h2
     }
 }
 
+/*Responsive phone*/
 @media screen and (max-width:500px)
 {
     header nav section
@@ -348,6 +351,7 @@ footer h2
     }
 }
 
+/*Responsive PC*/
 @media screen and (min-width:700px)
 {
     #Background h1
@@ -356,6 +360,7 @@ footer h2
     }
 }
 
+/*Responsive PC*/
 @media screen and (min-width:500px)
 {
     #Invis

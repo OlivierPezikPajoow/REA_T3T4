@@ -77,6 +77,21 @@ function riddles()
         echo "<hr>";
     }
 }
+function executeInsertQuery($query)
+{
+    global $pdo;
 
+    try
+    {
+        $rowsAffected = $pdo->exec($query);
+    }
+    catch(PDOException $error)
+    {
+        $rowsAffected = 0;
+        echo "<p>Er is een error opgetreden: ". $error->getMessage() . "</p>";
+    }
+
+    return $rowsAffected;
+}
 
 ?>

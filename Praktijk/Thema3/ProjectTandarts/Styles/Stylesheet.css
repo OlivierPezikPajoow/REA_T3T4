@@ -8,6 +8,7 @@ body
 {
     padding: 0px;
     margin: 0px;
+    background-color: grey;
 }
 header
 {
@@ -277,6 +278,7 @@ form
 
 @media screen and (max-width:500px)
 {
+
     ul
     {
         font-size: 8px;
