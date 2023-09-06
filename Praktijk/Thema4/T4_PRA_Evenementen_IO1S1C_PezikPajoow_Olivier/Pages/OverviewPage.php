@@ -65,7 +65,6 @@ include "../Includes/Header.php";
         else
         {
             $Message2 = "";
-
         }
 ?>
 <main id="wrapper">

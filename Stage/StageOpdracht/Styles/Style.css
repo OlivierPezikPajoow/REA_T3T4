@@ -1,0 +1,147 @@
+body
+{
+    background-color: #e3e3e3;
+    margin: 0;
+}
+#OlivierLogo
+{
+    height: 40px;
+}
+header
+{
+    font-family: Tahoma;
+    width: 100vw;
+    padding-top: 20px;
+    height: 60px;
+    box-shadow: 0 5px 5px #989898;
+    background-color: #ffffff;
+}
+nav
+{
+    position: relative;
+    display: flex;
+    float: right;
+    font-size: 20px;
+    font-weight: bolder;
+    right: 10px;
+    height: 40px;
+    justify-content:center;
+    align-content: center;
+    padding: 10px
+}
+nav ul
+{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+}
+nav li
+{
+    margin-right: 5px;
+    padding-right: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a
+{
+    text-decoration: none;
+    background-image: linear-gradient(
+    to left,
+    #000000,
+    #000000 50%,
+    #F91D8A 50%,
+    #0000f0 100%
+
+    );
+    background-size: 200% 100%;
+    background-position: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.2s ease-in-out;
+
+}
+nav a:hover
+{
+    background-position: 0;
+}
+nav li:hover
+{
+    margin-top: 5px;
+}
+
+#IntroMenu
+{
+    font-family: sans-serif;
+    margin-top: 200px;
+    margin-left: 10vw;
+}
+#IntroMenu h1
+{
+    margin: 0;
+}
+#Name
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+#LastName
+{
+    animation: Moves 10s ease-in-out infinite;
+    background-image: linear-gradient(
+            to left,
+            #0000f0 0%,
+            #F91D8A 40%,
+            #F91D8A 60%,
+            #0000f0 100%
+    );
+    background-size:200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Slash {
+    animation: blinker 2s linear infinite;
+}
+
+#Tag
+{
+    color: #0000f0
+}
+
+#Tag:Hover
+{
+    transform: Translate(-5px);
+}
+
+@keyframes Moves {
+    0%
+    {
+        background-position: 0%;
+    }
+    50%
+    {
+        background-position: 200%;
+    }
+    100%
+    {
+        background-position: 0%;
+    }
+
+}
+@keyframes blinker {
+    20%{
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+}

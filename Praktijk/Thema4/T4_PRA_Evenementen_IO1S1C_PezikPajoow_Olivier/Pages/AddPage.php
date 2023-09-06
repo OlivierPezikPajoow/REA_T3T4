@@ -6,7 +6,7 @@ include "../Includes/Functions.php";
 StartConnection("Evenementen");
 
 //Login check
-if (Isset($_SESSION["Logged"]) == false or $_SESSION["Logged"] == false or empty($_GEt['AddNew']))
+if (Isset($_SESSION["Logged"]) == false or $_SESSION["Logged"] == false)
 {
     header("Location:../Index.php");
     exit();

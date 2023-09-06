@@ -3,7 +3,7 @@
 include "../Includes/Functions.php";
 
 //Login check
-if (Isset($_SESSION["Logged"]) == false or $_SESSION["Logged"] == false or empty($_GEt['ActivityId']))
+if (Isset($_SESSION["Logged"]) == false or $_SESSION["Logged"] == false)
 {
     header("Location:../Index.php");
     exit();
