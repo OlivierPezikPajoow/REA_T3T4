@@ -1,7 +1,10 @@
-body
-{
+body {
     background-color: #e3e3e3;
     margin: 0;
+    background-image: url("../Images/BackgroundImage.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: right top 50px;
 }
 #OlivierLogo
 {
@@ -13,7 +16,7 @@ header
     width: 100vw;
     padding-top: 20px;
     height: 60px;
-    box-shadow: 0 5px 5px #989898;
+    box-shadow: 0 10px 10px #515151;
     background-color: #ffffff;
 }
 nav
@@ -61,7 +64,6 @@ nav a
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.2s ease-in-out;
-
 }
 nav a:hover
 {
@@ -71,11 +73,13 @@ nav li:hover
 {
     margin-top: 5px;
 }
-
-#IntroMenu
+Main
 {
     font-family: sans-serif;
-    margin-top: 200px;
+}
+#IntroMenu
+{
+    margin-top: 250px;
     margin-left: 10vw;
 }
 #IntroMenu h1
@@ -89,15 +93,15 @@ nav li:hover
 }
 #LastName
 {
-    animation: Moves 10s ease-in-out infinite;
+    animation: Moves 10s linear infinite;
     background-image: linear-gradient(
-            to left,
-            #0000f0 0%,
-            #F91D8A 40%,
-            #F91D8A 60%,
-            #0000f0 100%
+            to right,
+            #F91D8A,
+            #0000f0,
+            #F91D8A,
+            #0000f0
     );
-    background-size:200% 100%;
+    background-size:300% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -108,28 +112,104 @@ nav li:hover
 
 #Tag
 {
-    color: #0000f0
+    animation: Glitch 15s alternate linear both  infinite;
+    color: #0000f0;
+    display: inline-flex;
 }
 
-#Tag:Hover
+#AboutMe
 {
-    transform: Translate(-5px);
+    position: relative;
+    margin-left: 10vw;
+    margin-top: 25px;
+}
+#AboutMe a
+{
+    padding: 10px 20px 10px 20px ;
+    background-image: linear-gradient(
+            to right,
+            #F91D8A,
+            #0000f0
+);
+    background-size:400% 100%;
+    background-position: 0%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    font-size: 15px;
+    display: flex;
+    width: fit-content;
+    /*border: 3px solid black;*/
+    box-shadow: inset 0 4px 4px #515151, 0px 0px #515151;
+}
+#AboutMe a:hover
+{
+    background-position: 100%;
+    box-shadow: inset 0 0px 0px #515151, 0 5px 5px #515151;
+    transform: translateY(-5px);
+    /*border: 3px solid transparent;*/
+}
+
+
+
+@keyframes Glitch {
+    0%
+    {
+        transform: translate(5px, -5px);
+    }
+    10%
+    {
+        transform: translate(0px, -5px);
+    }
+    20%
+    {
+        transform: translate(-5px, 0px);
+    }
+    30%
+    {
+        transform: translate(5px, 5px);
+    }
+    40%
+    {
+        transform: translate(0px, -5px);
+    }
+    50%
+    {
+        transform: translate(0px, 0px);
+    }
+    60%
+    {
+        transform: translate(-5px, 5px);
+    }
+    70%
+    {
+        transform: translate(0px, 0px);
+    }
+    80%
+    {
+        transform: translate(0px, -5px);
+    }
+    90%
+    {
+        transform: translate(5px, 5px);
+    }
+    100%
+    {
+        transform: translate(5px, -5px);
+    }
 }
 
 @keyframes Moves {
     0%
     {
-        background-position: 0%;
-    }
-    50%
-    {
-        background-position: 200%;
+        background-position: 100%, 0%;
     }
     100%
     {
-        background-position: 0%;
+        background-position: 0%, 0%;
     }
-
 }
 @keyframes blinker {
     20%{

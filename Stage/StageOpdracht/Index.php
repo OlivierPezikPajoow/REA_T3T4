@@ -49,12 +49,17 @@
             Hello and welcome,
         </h1>
         <h1 id="Name">
-            I'm Olivier <span id="LastName">Pezik Pajoow</span><span id="Slash">|</span>
+            I'm Ethena <span id="LastName">Koinugami</span><span id="Slash">|</span>
         </h1>
         <h1>
             A software developer <br>with a passion for <span id="Tag"> &lt;code&gt;</span>
         </h1>
     </section>
+    <div id="AboutMe">
+        <a href="/Stage/StageOpdracht/Index.php">
+            ABOUT ME
+        </a>
+    </div>
 </main>
 <footer>
 
