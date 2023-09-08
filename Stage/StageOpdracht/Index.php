@@ -17,12 +17,12 @@
 </head>
 <body>
 <header>
-    <img id="OlivierLogo" src="Images/LogoName.png" alt="Logo Naam">
+    <img id="OlivierLogo" src="Images/TempLogo.png" alt="Logo Naam">
     <nav>
         <ul>
             <li>
                 <a href="/Stage/StageOpdracht/Index.php">
-                    ABOUT ME
+                    HOME
                 </a>
             </li>
             <li>
@@ -51,15 +51,25 @@
         <h1 id="Name">
             I'm Ethena <span id="LastName">Koinugami</span><span id="Slash">|</span>
         </h1>
-        <h1>
+        <h1>’
             A software developer <br>with a passion for <span id="Tag"> &lt;code&gt;</span>
         </h1>
+        <div id="AboutMe">
+            <a href="#AboutSec">
+                ABOUT ME
+            </a>
+        </div>
     </section>
-    <div id="AboutMe">
-        <a href="/Stage/StageOpdracht/Index.php">
-            ABOUT ME
-        </a>
-    </div>
+    <img id="PFP" src="Images/TestPFP2.png" alt="Profile Pic">
+    <img id="Border" src="Images/TestBorder2.png" alt="Border" >
+    <section id="AboutSec">
+        <section id="LeftSide">
+
+        </section>
+        <section id="RightSide">
+
+        </section>
+    </section>
 </main>
 <footer>
 
