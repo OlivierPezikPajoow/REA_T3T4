@@ -87,6 +87,20 @@
                 Ducimus, exercitationem, obcaecati. Consectetur, explicabo fugiat. A aliquam architecto at,
                 consectetur cum cumque neque officiis provident rem soluta.
             </p>
+            <section id="Socials">
+                <a>
+                    <img src="Images/iconmonstr-linkedin-5.svg">
+                </a>
+                <a>
+                    <img src="Images/iconmonstr-instagram-15.svg">
+                </a>
+                <a>
+                    <img src="Images/iconmonstr-reddit-5.svg">
+                </a>
+                <a>
+                    <img src="Images/iconmonstr-steam-5.svg">
+                </a>
+            </section>
         </section>
         <section id="RightSide">
 

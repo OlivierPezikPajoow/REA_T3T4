@@ -172,36 +172,38 @@ Main
     height: 600px;
     border: 0 solid;
     margin-top: -120px;
-    z-index: 0;
+    z-index: 1;
 }
 
 #AboutSec
 {
-    display: flex;
+    position: relative;
+    z-index: -1;
     width: 100%;
+    height: fit-content;
 }
 
 #LeftSide
 {
-    height: 1580px;
+    height: 100%;
     width: 50%;
     margin-top: -330px;
     background-image: url("../Images/BackgroundBlank.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 300px 200px 0px 100px ;
+    padding: 300px 50px 100px 100px ;
     box-sizing: border-box;
     filter: brightness(1.2);
     z-index: -1;
+    float: left;
 }
 
 #RightSide
 {
-    display: flex;
+    position: relative;
     width: 50%;
-    height: 1600px;
+    height: 100%;
     background-color: #363c4c;
-    margin-top: -350px;
     float: right;
     box-sizing: border-box;
     padding-top: 300px;
@@ -222,7 +224,20 @@ Main
 {
     font-size: 20px;
 }
-
+#Socials
+{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+#Socials img
+{
+    width: 100px;
+    height: auto;
+    margin: 0px 20px 0px 20px;
+}
 
 #Border, #PFP, #OlivierLogo
 {
