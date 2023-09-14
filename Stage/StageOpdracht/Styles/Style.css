@@ -83,22 +83,27 @@ nav li:hover
 Main
 {
     font-family: sans-serif;
+    z-index: -5;
 }
+
 #IntroMenu
 {
     margin-top: 350px;
     margin-left: 10vw;
     font-size: 30px;
 }
+
 #IntroMenu h1
 {
     margin: 0;
 }
+
 #Name
 {
     font-size: 70px;
     font-weight: bold;
 }
+
 .Animated
 {
     animation: Moves 10s linear infinite;
@@ -172,13 +177,13 @@ Main
     height: 600px;
     border: 0 solid;
     margin-top: -120px;
+    position: relative;
     z-index: 1;
 }
 
 #AboutSec
 {
     position: relative;
-    z-index: -1;
     width: 100%;
     height: 100%;
     margin-top: -350px;
@@ -191,13 +196,12 @@ Main
 {
     height: 100%;
     width: 50%;
-    background-image: url("../Images/BackgroundBlank.jpg");
+    background-image: url("../Images/BackgroundCopy.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 300px 100px 0px 100px;
+    padding: 300px 100px 0px 0px;
     box-sizing: border-box;
     filter: brightness(1.2);
-    z-index: -1;
     float: left;
     box-shadow: inset -16px 0px 18px -11px #404040;
 
@@ -210,7 +214,6 @@ Main
     height: 100%;
     box-sizing: border-box;
     padding-top: 300px;
-    z-index: -1;
 }
 
 #LeftSide H1
@@ -230,6 +233,11 @@ Main
     max-height: 400px;
     overflow: auto;
 }
+#LeftSide p, #LeftSide h2, #LeftSide h1
+{
+    margin-left: 50px;
+}
+
 #Socials
 {
     margin-top: 200px;
@@ -238,24 +246,25 @@ Main
     justify-content: space-between;
     width: 50%;
     height: fit-content;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    margin-left: 50px;
 }
 #Socials img
 {
-    width: 100px;
+    width: 80px;
     height: auto;
-    margin: 0px 20px 0px 20px;
+    transition: 0.3s;
 }
 
 #Border, #PFP, #OlivierLogo
 {
     -webkit-user-drag: none;
     user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
+#Socials img:hover
+{
 
+}
 @keyframes Glitch {
     0%
     {

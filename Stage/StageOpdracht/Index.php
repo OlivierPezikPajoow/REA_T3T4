@@ -14,6 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Styles/Style.css" rel="stylesheet">
+    <link rel="Icon" href="Images/LogoIcon.png">
 </head>
 <body>
 <header>
@@ -87,17 +88,17 @@
                 consectetur cum cumque neque officiis provident rem soluta.
             </p>
             <section id="Socials">
-                <a>
-                    <img src="Images/iconmonstr-linkedin-5.svg">
+                <a href="Index.php">
+                    <img src="Images/iconmonstr-linkedin-5.svg" alt="Linkedin">
                 </a>
-                <a>
-                    <img src="Images/iconmonstr-instagram-15.svg">
+                <a href="Index.php">
+                    <img src="Images/iconmonstr-instagram-15.svg" alt="Instagram">
                 </a>
-                <a>
-                    <img src="Images/iconmonstr-reddit-5.svg">
+                <a href="Index.php">
+                    <img src="Images/iconmonstr-reddit-5.svg" alt="Reddit">
                 </a>
-                <a>
-                    <img src="Images/iconmonstr-steam-5.svg">
+                <a href="Index.php">
+                    <img src="Images/iconmonstr-steam-5.svg" alt="Steam">
                 </a>
             </section>
         </section>
