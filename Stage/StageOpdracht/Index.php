@@ -55,7 +55,7 @@
             A software developer <br>with a passion for <span id="Tag"> &lt;code&gt;</span>
         </h1>
         <div id="AboutMe">
-            <a href="#AboutSec">
+            <a href="#LeftSide">
                 ABOUT ME
             </a>
         </div>
@@ -68,7 +68,7 @@
                 Hi! Here's something<br><span class=Animated>About me</span><span class="Slash">|</span>
             </h1>
             <h2>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid ipsa repellendus. Beatae culpa cumque eaque explicabo ipsam labore modi.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid ipsa repellendus.
             </h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -80,8 +80,7 @@
                 impedit inventore ipsum iste laudantium magnam, molestias nulla quaerat quis sequi voluptatem.
                 Ad animi atque aut consequatur dolore doloremque dolorum impedit iure laborum modi nemo numquam odit officia, optio perspiciatis,
                 quam qui quia quibusdam, quidem quos reiciendis sunt vero voluptas voluptate.
-            </p>
-            <p>
+                <br><br>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolores excepturi explicabo magni.
                 Commodi dicta eveniet fugiat iste reiciendis veritatis. A deleniti explicabo magni modi officiis pariatur quam quisquam sunt tempora vero!
                 Ducimus, exercitationem, obcaecati. Consectetur, explicabo fugiat. A aliquam architecto at,

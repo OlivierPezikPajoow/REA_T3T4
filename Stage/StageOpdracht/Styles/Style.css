@@ -180,22 +180,27 @@ Main
     position: relative;
     z-index: -1;
     width: 100%;
-    height: fit-content;
+    height: 100%;
+    margin-top: -350px;
+    display: flex;
+    background-color: #363c4c;
+
 }
 
 #LeftSide
 {
     height: 100%;
     width: 50%;
-    margin-top: -330px;
     background-image: url("../Images/BackgroundBlank.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 300px 50px 100px 100px ;
+    padding: 300px 100px 0px 100px;
     box-sizing: border-box;
     filter: brightness(1.2);
     z-index: -1;
     float: left;
+    box-shadow: inset -16px 0px 18px -11px #404040;
+
 }
 
 #RightSide
@@ -203,11 +208,8 @@ Main
     position: relative;
     width: 50%;
     height: 100%;
-    background-color: #363c4c;
-    float: right;
     box-sizing: border-box;
     padding-top: 300px;
-    box-shadow: -15px 4px 30px 0px #565656;
     z-index: -1;
 }
 
@@ -223,6 +225,10 @@ Main
 #LeftSide p
 {
     font-size: 20px;
+    height: 350px;
+    width: 90%;
+    max-height: 400px;
+    overflow: auto;
 }
 #Socials
 {
@@ -231,6 +237,8 @@ Main
     flex-direction: row;
     justify-content: space-between;
     width: 50%;
+    height: fit-content;
+    margin-bottom: 50px;
 }
 #Socials img
 {
