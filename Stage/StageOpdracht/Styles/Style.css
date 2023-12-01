@@ -213,19 +213,19 @@ Main
     width: 50%;
     height: 100%;
     box-sizing: border-box;
-    padding-top: 300px;
+    padding: 300px 0px 0px 100px;
 }
 
-#LeftSide H1
+#LeftSide H1, #RightSide H1
 {
     font-size: 60px;
 }
-#LeftSide h2
+#LeftSide H2, #RightSide H2
 {
     font-size: 30px;
 }
 
-#LeftSide p
+#LeftSide p, #RightSide p
 {
     font-size: 20px;
     height: 350px;
@@ -233,7 +233,7 @@ Main
     max-height: 400px;
     overflow: auto;
 }
-#LeftSide p, #LeftSide h2, #LeftSide h1
+#LeftSide p, #LeftSide h2, #LeftSide h1, #RightSide p, #RightSide h2, #RightSide h1
 {
     margin-left: 50px;
 }
@@ -334,5 +334,26 @@ Main
     }
     80%{
         opacity: 1;
+    }
+}
+
+@media screen and (max-width:890px)
+{
+    header
+    {
+        height: 120px;
+    }
+    nav
+    {
+        width: 100%;
+    }
+    nav ul
+    {
+        width: 80%;
+
+    }
+    nav ul li
+    {
+        padding-right: 0px;
     }
 }
