@@ -18,7 +18,9 @@
 </head>
 <body>
 <header>
-    <img id="OlivierLogo" src="Images/LogoName.png" alt="Logo Naam">
+    <a href="/Stage/StageOpdracht/Index.php">
+        <img id="OlivierLogo" src="Images/LogoName.png" alt="Logo Naam">
+    </a>
     <nav>
         <ul>
             <li>
@@ -28,17 +30,17 @@
             </li>
             <li>
                 <a href="/Stage/StageOpdracht/Index.php">
-                    PORTFOLIO
+                    INTERNSHIP 1
                 </a>
             </li>
             <li>
                 <a href="/Stage/StageOpdracht/Index.php">
-                    SKILLS
+                    INTERNSHIP 2
                 </a>
             </li>
             <li>
                 <a href="/Stage/StageOpdracht/Index.php">
-                    CONTACT
+                    INTERNSHIP 3
                 </a>
             </li>
         </ul>
@@ -87,20 +89,20 @@
                 Ducimus, exercitationem, obcaecati. Consectetur, explicabo fugiat. A aliquam architecto at,
                 consectetur cum cumque neque officiis provident rem soluta.
             </p>
-            <section id="Socials">
-                <a href="Index.php">
-                    <img src="Images/iconmonstr-linkedin-5.svg" alt="Linkedin">
-                </a>
-                <a href="Index.php">
-                    <img src="Images/iconmonstr-instagram-15.svg" alt="Instagram">
-                </a>
-                <a href="Index.php">
-                    <img src="Images/iconmonstr-reddit-5.svg" alt="Reddit">
-                </a>
-                <a href="Index.php">
-                    <img src="Images/iconmonstr-steam-5.svg" alt="Steam">
-                </a>
-            </section>
+<!--            <section id="Socials">-->
+<!--                <a href="Index.php">-->
+<!--                    <img src="Images/iconmonstr-linkedin-5.svg" alt="Linkedin">-->
+<!--                </a>-->
+<!--                <a href="Index.php">-->
+<!--                    <img src="Images/iconmonstr-instagram-15.svg" alt="Instagram">-->
+<!--                </a>-->
+<!--                <a href="Index.php">-->
+<!--                    <img src="Images/iconmonstr-reddit-5.svg" alt="Reddit">-->
+<!--                </a>-->
+<!--                <a href="Index.php">-->
+<!--                    <img src="Images/iconmonstr-steam-5.svg" alt="Steam">-->
+<!--                </a>-->
+<!--            </section>-->
         </section>
         <section id="RightSide">
             <h1>
@@ -129,6 +131,7 @@
     </section>
 </main>
 <footer>
+    <hr id="FooterLine">
 
 </footer>
 </body>

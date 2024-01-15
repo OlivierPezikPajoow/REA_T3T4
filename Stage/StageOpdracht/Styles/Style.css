@@ -184,7 +184,7 @@ Main
 #AboutSec
 {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     margin-top: -350px;
     display: flex;
@@ -195,22 +195,21 @@ Main
 #LeftSide
 {
     height: 100%;
-    width: 50%;
+    width: 50vw;
     background-image: url("../Images/BackgroundCopy.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 300px 100px 0px 0px;
     box-sizing: border-box;
     filter: brightness(1.2);
-    float: left;
     box-shadow: inset -16px 0px 18px -11px #404040;
-
+    padding-bottom: 100px;
 }
 
 #RightSide
 {
     position: relative;
-    width: 50%;
+    width: 50vw;
     height: 100%;
     box-sizing: border-box;
     padding: 300px 0px 0px 100px;
@@ -223,15 +222,17 @@ Main
 #LeftSide H2, #RightSide H2
 {
     font-size: 30px;
+    width: 80%;
 }
 
 #LeftSide p, #RightSide p
 {
     font-size: 20px;
     height: 350px;
-    width: 90%;
+    width: 70%;
     max-height: 400px;
     overflow: auto;
+    padding-bottom: 100px;
 }
 #LeftSide p, #LeftSide h2, #LeftSide h1, #RightSide p, #RightSide h2, #RightSide h1
 {
@@ -261,10 +262,26 @@ Main
     -webkit-user-drag: none;
     user-select: none;
 }
-#Socials img:hover
-{
 
+Footer
+{
+    width: 100%;
+    height: 350px;
+    background-color: #545454;
 }
+
+#FooterLine
+{
+    background-color: black;
+    border: black 2px solid;
+    top: -25px;
+    height: 20px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 10px 10px #515151;
+}
+
+
 @keyframes Glitch {
     0%
     {
