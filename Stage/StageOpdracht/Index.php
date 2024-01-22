@@ -17,35 +17,9 @@
     <link rel="Icon" href="Images/LogoIcon.png">
 </head>
 <body>
-<header>
-    <a href="/Stage/StageOpdracht/Index.php">
-        <img id="OlivierLogo" src="Images/LogoName.png" alt="Logo Naam">
-    </a>
-    <nav>
-        <ul>
-            <li>
-                <a href="/Stage/StageOpdracht/Index.php">
-                    HOME
-                </a>
-            </li>
-            <li>
-                <a href="/Stage/StageOpdracht/Index.php">
-                    INTERNSHIP 1
-                </a>
-            </li>
-            <li>
-                <a href="/Stage/StageOpdracht/Index.php">
-                    INTERNSHIP 2
-                </a>
-            </li>
-            <li>
-                <a href="/Stage/StageOpdracht/Index.php">
-                    INTERNSHIP 3
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
+<?php
+include "Includes/Header.php"
+?>
 <main id="wrapper">
     <section id="IntroMenu">
         <h1>
@@ -71,18 +45,14 @@
                 Hi! Here's something<br><span class=Animated>About me</span><span class="Slash">|</span>
             </h1>
             <h2>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid ipsa repellendus.
+                A programming student from the Koning Willem 1 College, with a drive for improving
             </h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ab adipisci amet architecto assumenda,
-                aut debitis deleniti doloremque,
-                eaque esse iusto nam perferendis porro rem saepe voluptatem!
-                A atque autem delectus deserunt dolorum et, iste porro quisquam quod sed. Ducimus fugiat officia perspiciatis qui?
-                Ad dolor fugit non perferendis tenetur voluptas. Atque blanditiis commodi cupiditate distinctio dolor eaque ex exercitationem,
-                impedit inventore ipsum iste laudantium magnam, molestias nulla quaerat quis sequi voluptatem.
-                Ad animi atque aut consequatur dolore doloremque dolorum impedit iure laborum modi nemo numquam odit officia, optio perspiciatis,
-                quam qui quia quibusdam, quidem quos reiciendis sunt vero voluptas voluptate.
+                I am a second-time student at the Koning Willem 1 College, I previously followed a course for engineering however I realised my heart
+                 was somewhere else; namely programming.
+                <br>
+                I am in my second year of college, however I have already learned a tremendous amount of information about web design and programming,
+                I love designing web pages and envisioning how I wwould make it interesting and get it to stand out among the ocean of websites on the internet.
                 <br><br>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolores excepturi explicabo magni.
                 Commodi dicta eveniet fugiat iste reiciendis veritatis. A deleniti explicabo magni modi officiis pariatur quam quisquam sunt tempora vero!
@@ -116,36 +86,9 @@
         </section>
     </section>
 </main>
-<footer>
-    <hr id="FooterLine">
-        <section id="Socials">
-            <ul id="SocialLinks">
-                <li>
-                    <a href="Index.php">
-                        <img src="Images/iconmonstr-linkedin-5.svg" alt="Linkedin">
-                    </a>
-                </li>
-                <li>
-                    <a href="Index.php">
-                        <img src="Images/iconmonstr-instagram-15.svg" alt="Instagram">
-                    </a>
-                </li>
-                <li>
-                    <a href="Index.php">
-                        <img src="Images/iconmonstr-reddit-5.svg" alt="Reddit">
-                    </a>
-                </li>
-                <li>
-                    <a href="Index.php">
-                        <img src="Images/iconmonstr-steam-5.svg" alt="Steam">
-                    </a>
-                </li>
-            </ul>
-        </section>
-    <h1>
-        &#169;OLIVIER PEZIK PAJOOW.
-    </h1>
-</footer>
+<?php
+include "Includes/Footer.php"
+?>
 </body>
 
 </html>
