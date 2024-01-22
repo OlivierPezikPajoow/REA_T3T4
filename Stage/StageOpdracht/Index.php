@@ -89,20 +89,6 @@
                 Ducimus, exercitationem, obcaecati. Consectetur, explicabo fugiat. A aliquam architecto at,
                 consectetur cum cumque neque officiis provident rem soluta.
             </p>
-<!--            <section id="Socials">-->
-<!--                <a href="Index.php">-->
-<!--                    <img src="Images/iconmonstr-linkedin-5.svg" alt="Linkedin">-->
-<!--                </a>-->
-<!--                <a href="Index.php">-->
-<!--                    <img src="Images/iconmonstr-instagram-15.svg" alt="Instagram">-->
-<!--                </a>-->
-<!--                <a href="Index.php">-->
-<!--                    <img src="Images/iconmonstr-reddit-5.svg" alt="Reddit">-->
-<!--                </a>-->
-<!--                <a href="Index.php">-->
-<!--                    <img src="Images/iconmonstr-steam-5.svg" alt="Steam">-->
-<!--                </a>-->
-<!--            </section>-->
         </section>
         <section id="RightSide">
             <h1>
@@ -132,7 +118,33 @@
 </main>
 <footer>
     <hr id="FooterLine">
-
+        <section id="Socials">
+            <ul id="SocialLinks">
+                <li>
+                    <a href="Index.php">
+                        <img src="Images/iconmonstr-linkedin-5.svg" alt="Linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="Index.php">
+                        <img src="Images/iconmonstr-instagram-15.svg" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="Index.php">
+                        <img src="Images/iconmonstr-reddit-5.svg" alt="Reddit">
+                    </a>
+                </li>
+                <li>
+                    <a href="Index.php">
+                        <img src="Images/iconmonstr-steam-5.svg" alt="Steam">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    <h1>
+        &#169;OLIVIER PEZIK PAJOOW.
+    </h1>
 </footer>
 </body>
 
