@@ -40,48 +40,34 @@ include "Includes/Header.php"
     <img id="PFP" src="Images/TestPFP.png" alt="Profile Pic">
     <img id="Border" src="Images/TestBorder2.png" alt="Border" >
     <section id="AboutSec">
-        <section id="LeftSide">
+        <section id="LeftSide" class="FrontPageL">
             <h1>
                 Hi! Here's something<br><span class=Animated>About me</span><span class="Slash">|</span>
             </h1>
             <h2>
-                A programming student from the Koning Willem 1 College, with a drive for improving
+                A programming student from the Koning Willem 1 College
             </h2>
             <p>
                 I am a second-time student at the Koning Willem 1 College, I previously followed a course for engineering however I realised my heart
                  was somewhere else; namely programming.
                 <br>
                 I am in my second year of college, however I have already learned a tremendous amount of information about web design and programming,
-                I love designing web pages and envisioning how I wwould make it interesting and get it to stand out among the ocean of websites on the internet.
-                <br><br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolores excepturi explicabo magni.
-                Commodi dicta eveniet fugiat iste reiciendis veritatis. A deleniti explicabo magni modi officiis pariatur quam quisquam sunt tempora vero!
-                Ducimus, exercitationem, obcaecati. Consectetur, explicabo fugiat. A aliquam architecto at,
-                consectetur cum cumque neque officiis provident rem soluta.
+                I love designing web pages and envisioning how I would make it interesting and get it to stand out among the ocean of websites on the internet.
             </p>
         </section>
-        <section id="RightSide">
+        <section id="RightSide" class="FrontPageR">
             <h1>
                 What are my <br><span class=Animated> interests?</span><span class="Slash">|</span>
             </h1>
             <h2>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid ipsa repellendus.
+                A couple things I enjoy
             </h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ab adipisci amet architecto assumenda,
-                aut debitis deleniti doloremque,
-                eaque esse iusto nam perferendis porro rem saepe voluptatem!
-                A atque autem delectus deserunt dolorum et, iste porro quisquam quod sed. Ducimus fugiat officia perspiciatis qui?
-                Ad dolor fugit non perferendis tenetur voluptas. Atque blanditiis commodi cupiditate distinctio dolor eaque ex exercitationem,
-                impedit inventore ipsum iste laudantium magnam, molestias nulla quaerat quis sequi voluptatem.
-                Ad animi atque aut consequatur dolore doloremque dolorum impedit iure laborum modi nemo numquam odit officia, optio perspiciatis,
-                quam qui quia quibusdam, quidem quos reiciendis sunt vero voluptas voluptate.
-                <br><br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolores excepturi explicabo magni.
-                Commodi dicta eveniet fugiat iste reiciendis veritatis. A deleniti explicabo magni modi officiis pariatur quam quisquam sunt tempora vero!
-                Ducimus, exercitationem, obcaecati. Consectetur, explicabo fugiat. A aliquam architecto at,
-                consectetur cum cumque neque officiis provident rem soluta.
+                I like playing games, that's my main hobby. I have a hefty computer that can run most games which doubles as a 3D modeling computer.
+                While I mostly play games I really enjoy making games as well. Which is my in my first internship my project was the creation of a game.
+                <br>
+                Other than that I really enjoy listening to music, mainly hard EMD. I also play piano when I have time or am bored of playing games.
+                Wherever I go I'm listening to music.
             </p>
         </section>
     </section>

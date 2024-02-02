@@ -192,6 +192,10 @@ Main
     background-color: #363c4c;
 
 }
+.FrontPageL
+{
+    padding: 300px 100px 0px 0px;
+}
 
 #LeftSide
 {
@@ -200,11 +204,15 @@ Main
     background-image: url("../Images/BackgroundCopy.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 300px 100px 0px 0px;
     box-sizing: border-box;
     filter: brightness(1.2);
     box-shadow: inset -16px 0px 18px -11px #404040;
     padding-bottom: 300px;
+}
+
+.FrontPageR
+{
+    padding: 300px 0px 0px 100px;
 }
 
 #RightSide
@@ -213,7 +221,7 @@ Main
     width: 50%;
     height: 100%;
     box-sizing: border-box;
-    padding: 300px 0px 0px 100px;
+    color: #c3c7d9;
 }
 
 #LeftSide H1, #RightSide H1
@@ -228,7 +236,7 @@ Main
 
 #LeftSide p, #RightSide p
 {
-    font-size: 22px;
+    font-size: 28px;
     height: 400px;
     width: 70%;
     max-height: 400px;
@@ -240,6 +248,19 @@ Main
 #LeftSide p, #LeftSide h2, #LeftSide h1, #RightSide p, #RightSide h2, #RightSide h1
 {
     margin-left: 50px;
+}
+
+.Segment video, .Segment H1
+{
+    margin-top: 100px;
+    margin-left: 10%;
+
+}
+
+.Segment video
+{
+    width: 80%;
+    box-shadow: 0 13px 32px #515151;
 }
 
 #Border, #PFP, #OlivierLogo
